@@ -1,0 +1,12 @@
+{
+    "name": "JahBot",
+    "version": "2.0.0",
+    "dependencies": {
+        "@discordjs/opus": "^0.5.3",
+        "discord.js": "^14.15.3",
+        "formidable": "^1.2.6",
+        "unirest": "^0.6.0",
+        "uuid": "^8.3.2",
+        "ytdl-core": "^4.11.5"
+    }
+}

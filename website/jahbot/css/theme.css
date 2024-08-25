@@ -1,0 +1,106 @@
+h1, h2, h3, h4 {
+    font-family: 'Trebuchet MS', sans-serif;
+    
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: dimgray;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.text {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+input[type=text], textarea {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    
+    padding: 0.25rem;
+    
+    border: none;
+    border-bottom: 3px solid seagreen;
+    border-left: 3px solid seagreen;
+}
+
+button {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    
+    background-color: seagreen;
+    
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    
+    border: none;
+}
+
+.button-link {
+    font-size: 1rem;
+    text-decoration: none;
+    
+    color: white;
+    background-color: seagreen;
+    
+    padding: 0.5rem;
+    
+    border-radius: 0.25rem;
+}
+
+select {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: black;
+    
+    padding: 0.75rem;
+    
+    border: 2px solid seagreen;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid darkgray;
+    text-align: left;
+    padding: 0.5rem;
+    
+    white-space: nowrap;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.card {
+    position: relative;
+    
+    margin: 5vw;
+    padding: 2rem;
+    
+    border: 2px solid black;
+}

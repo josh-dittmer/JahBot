@@ -1,0 +1,121 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.box .header {
+    flex: 0 1 auto;
+    
+    height: 10%;
+    min-height: 75px;
+    
+    background-color: black;
+    
+    border-bottom: 0.1vh solid white;
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    
+    //margin-left: 10px;
+    
+    max-width: 116px;
+    max-height: 49px;
+
+    z-index: 7;
+    color: white;
+}
+
+.box .content {
+    flex-flow: row;
+    flex: 1 1 auto;
+}
+
+.sidebar {
+    width: auto;
+    
+    background-color: black;
+}
+
+.item {
+    width: 100%;
+    
+    padding: 1rem;
+    
+    margin-right: 2rem;
+    
+    border-bottom: 1px solid white;
+}
+
+.item-img {
+    width: 20px;
+    height: 20px;
+    
+    vertical-align: middle;
+    
+    filter: invert(1);
+}
+
+.item-link {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    
+    margin-left: 1rem;
+    
+    vertical-align: middle;
+}
+
+.error {
+    background-color: lightcoral;
+    
+    padding: 0.5rem;
+}
+
+.error-text {
+    font-size: 1.25rem;
+    color: white;
+}
+
+.error-dismiss {
+    font-size: 1.25rem;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    
+    background-color: white;
+}
+
+.content-frame {
+    width: 100%;
+    height: 100%;
+    
+    border: none;
+}
+
+.box .footer {
+    flex: 0 1 1rem;
+    
+    border-top: 1px solid white;
+    
+    color: white;
+    background-color: black;
+}
+
+.box .footer a, .box.footer a:visited {
+    color: white
+}
